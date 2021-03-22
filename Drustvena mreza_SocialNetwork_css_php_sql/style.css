@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('slike/DSC_0139.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+th {
+    background-color: rgba(104, 247, 247, 0.342) ;
+}
+tr:nth-child(even) {
+    background-color: rgba(220, 243, 245, 0.363);
+}
+tr:nth-child(odd) {
+    background-color: rgba(179, 237, 245, 0.308);
+}
+
+table th, td {
+    width: auto !important;
+}
+
+.card-header h3{
+    color: white;
+}
+
+.logreg h1 {
+    text-align: center;
+    color: white;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    color: white;
+}
+
+.remember input{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.error {
+    color: red;
+  }
+  
+.blue {
+    color: blue;
+}
+  
+.green, .success {
+    color: green;
+}
+
+
+.welcome {
+    margin-left: 20px;
+    margin-top: 20px;
+    color:wheat;
+    position: absolute;
+    
+}
+
+.ulogovani {
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 20px;
+    position:relative;
+
+}
+
+input[type="radio"] {
+    margin-left: 15px !important;
+}
+
+table a{
+    color: black;
+    background-color: rgba(0, 162, 255, 0.247);
+    border-radius: 20%;
+    padding: 5px;
+}
+table a:hover{
+    transform: scale(1.5);
+    text-decoration: none;
+}
+
+
+.par {
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.blue {
+    color:blue
+}
+.pink {
+    color:pink; /* ova boja se lose vidi, ali sam je stavio po zadatku */
+}
+.gray {
+    color:gray
+}
+#profil {
+    margin: auto;
+}
+
+#profil td{
+    padding: 20px;
+}
+.linkp {
+    text-align: center;
+    color:white;
+}
+
+.linkp a {
+    color: black;
+    background-color: rgba(0, 162, 255, 0.247);
+    border-radius: 20%;
+    padding: 5px;
+}
