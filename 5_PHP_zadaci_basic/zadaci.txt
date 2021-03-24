@@ -1,0 +1,59 @@
+1   Izvršiti konverziju temperature iz Farenhajta u Kelvine i obratno, ukoliko su date sledeće dve formule:
+    
+    Celzijus = (Farenhajt - 32) * 5/9
+    Kelvin = Celzijus + 273.15
+    
+    Temperaturu u Farenhajtima i Kelvinima zadati samostalno.
+
+2.  Knjiga ima n poglavlja (broj n unosite sami). 
+    Čitalac je prvog dana pročitao a poglavlja, a drugog dana dva poglavlja više nego prvog dana.
+    Na osnovu dodeljenih vrednosti, u konzoli ispisati koliko poglavlja je preostalo čitaocu da pročita do kraja     knjige. Pretpostaviti da su vrednosti promenljivih n i a ispravno unete.
+
+3.  Pera i Mika su kupili dva ista džempera. Pera je dao p dinara, Mika je dao m dinara i dobili su kusur od k      dinara. Brojeve p, m i k odredite proizvoljno.
+    Na osnosvu unetih vrednosti, u konzoli ispisati koliki kusur treba da dobije Pera, a koliki kusur treba da     dobije Mika, da bi jednako platili svako svoj džemper.
+
+4.  Da bi gosti kafića mogli na distanci da sede tokom pandemije, ministarstvo je uvelo meru da za svakog 
+    čoveka mora biti obezbeđeno 3m² površine lokala. Za posmatrani kafić su dati podaci da ima vm² i da je u 
+    njemu trenutno n gostiju. Brojeve n i v određujete sami. 
+    Vaš zadatak je da ispišete DA zelenom bojom ukoliko se kafić prema unetim podacima pridržava propisane
+    mere ili NE crvenom bojom ukoliko se kafić ne pridržava propisane mere. 
+    Ukoliko je ispis NE, crvenom bojom ispisati i koliko ljudi je potrebno da napusti lokal da bi mera bila
+    zadovoljena.
+
+5.  Za preuzetu godinu sa računara i unetu godinu rođenja izračunati da li je osoba punoletna ili maloletna.
+
+6.  Jedan butik ima radno vreme od 9h do 20h radnim danima, a vikendom od 10h do 18h. 
+    Preuzeti dan i vreme sa računara i ispitati da li je butik trenutno otvoren.
+
+7.  Ministarstvo zdravlja jedne zemlje je povodom pandemije virusa donelo sledeću odredbu:
+    "Ukoliko je procenat pozitivno testiranih stanovnika u odnosu na ukupno testirane stanovnike u jednom danu
+    veći od 30% ili ukoliko je procenat pozitivno testiranih stanovnika veći od 10% ukupnog broja stanovnika te
+    zemlje, automatski se uvodi vanredno stanje."
+    Za proizvoljno unete vrednosti: ukupan broj stanovnika zemlje, ukupan broj testiranih u jednom danu
+    i ukupan broj pozitivno testiranih u tom danu, na ekranu crvenom bojom ispisati VANREDNO STANJE, 
+    ukoliko treba automatski uvesti vanredno stanje prema odredbi koju je ministarstvo donelo
+    (u suprotnom ne ispisivati ništa).
+
+8.  Odrediti zbir cifara unetog celog broja i dobijeni zbir ispisati na ekranu:
+
+        a) Ukoliko je zbir cifara broja jednak samom broju, na ekranu se zbir ispisuje uokviren narandžastom bojom
+        Npr. za broj 5 zbir cifara je 5, što je jednako unetom broju 5
+
+        b) Ukoliko je zbir cifara broja manji od samog broja, na ekranu se zbir ispisuje uokviren plavom bojom.
+        Npr. za broj 101 zbir cifara je 1+0+1 = 2, što je manje od unetog 101
+
+9.  Za uneti ceo broj odrediti koliko ima delioca koji su deljivi brojem 3 i neparni su.
+    Npr. za broj 15, delioci su 1, 3, 5 i 15, što znači da ima 2 delioca koji su deljivi brojem 3 i neparni su 
+    (to su brojevi 3 i 15)
+    Npr. za broj 6, delioci su 1, 2, 3, 6, što znači da ima 2 delioca koji su deljivi brojem 3 (3 i 6), 
+    ali samo jedan od njih je neparan (broj 3), te je rešenje ovog primera 1.
+
+
+10. Odrediti proizvod brojeva od $n do $m koji su deljivi sa 7 a nisu sa 3, a potom od njega oduzeti zbir brojeva     od $n do $m koji su deljivi sa 3 a nisu sa 7:
+    a) Koristeći while petlju
+    b) Kotisteći for petlju
+
+11. Odrediti sumu kubova neparnih brojeva od $n do $m:
+    a) Koristeći while petlju
+    b) Koristeći for petlju
+
