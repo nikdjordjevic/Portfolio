@@ -1,0 +1,37 @@
+1.  Napraviti bazu podataka videoteka.
+    U bazi videoteka, napraviti tabelu filmovi koja sadrži sledeće kolone:
+    • id – Ceo broj i primarni ključ.
+    • naslov – Tekstualni podatak dužine do 255 karaktera različit od NULL.
+    • reziser – Tekstualni podatak dužine do 255 karaktera različit od NULL.
+    • god_izdavanja – YEAR različit od NULL.
+    • zanr– Tekstualni podatak dužine do 255 karaktera različit od NULL.
+    • ocena –Decimalni broj 
+
+    Kreirati sledeće upite:
+    • Selektovati sve filmove gde je žanr tragedija, komedija ili drama.
+    • Selektovati sve filmove kojima je ocena između 5 i 10.
+    • Selektovati režisere (bez ponavljanja) koji su režirali filmove izdate 2003. godine i poređati ih abecednim       redom. 
+    • Selektovati sve filmove tako da im zanr nije komedija.
+    • Prikazati sve informacije o najbojle rangiranom filmu
+    • Prikazati sve informacije o najbolje rangiranoj drami.
+    • Selektovati trojicu rezisera ciji filmovi imaju najbolje ocene.
+    • Selektovati sve žanrove filmova, bez ponavljanja.
+    • Selektovati sve filmove u obliku naslov (režiser).
+    •  Selektovati sve filmove u obliku 
+    • naslov (režiser) – godina izdanja. Selektovane filmove sortirati rastuće prema godini izdanja.
+    • Odrediti prosečnu ocenu fimova koji su izdati nakon 2000 godine
+
+
+2.  Napraviti relacioni dijagram (MySQL Workbench) baze podataka kuhinja.
+    Ova baza treba da sadrži sledeće tabele:
+    kuvar(id, ime, prezime)
+    jelo(id, naziv)
+    restoran(id, naziv)
+    namirnice(id, naziv)
+    alergeni(id, naziv)
+
+    • Jedan kuvar može raditi samo u jednom restoranu, ali jedan restoran može imati više kuvara koji rade u njemu.
+    • Jedan kuvar može znati da kuva više različitih jela, takođe jedno isto jelo može da zna da kuva više kuvara.
+    • Jedno jelo može da se pravi od više različitih namirnica, takođe jedna namirnica može da se koristi u više          različitih jela.
+    • Jedna namirnica može da ima više različitih alrgena i jedan alergen može da se nađe u više različitih             namirnica.
+    • Jedno jelo može da se služi u više restorana i jedan restoran može da služi više različitih jela.
