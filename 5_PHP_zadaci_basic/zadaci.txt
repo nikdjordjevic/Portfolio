@@ -57,3 +57,11 @@
     a) Koristeći while petlju
     b) Koristeći for petlju
 
+12. Napisati funkciju digitron koja prima tri parametra: Prva dva parametra su brojevi, 
+    a treći je karakter koji predstavlja aritmetičku operaciju (‘+’, ‘-’, ‘*’ ili ‘/’). 
+    Potrebno je da funkcija izvrši odgovarajuću aritmetičku operaciju nad zadatim brojevima
+    i na ekranu ispiše prvi broj, operaciju, drugi broj, jednako, rezultat.
+    Na primer:
+    digitron(5, 8, ‘*’) kao rezultat na ekranu ispisuje 5 * 8 = 40.
+    digitron(2, 2, “+”) kao rezultat na ekranu ispisuje 2 + 2 = 4.
+
