@@ -1,0 +1,77 @@
+1.  Napraviti klasu Knjiga koja od privatnih polja sadrži:
+    ◦ naslov
+    ◦ autor
+    ◦ godIzdanja
+    ◦ brojStrana
+    ◦ cena
+    • Klasa Knjiga od javnih metoda sadrži:
+    ◦ Konstruktor koji postavlja sva polja
+    ◦ Metodu stampaj koja štampa sve podatke o knjizi
+    ◦ Metodu obimna koja ispituje da li je knjiga obimna (ukoliko je broj strana veći od 600 tada je knjiga 
+    obimna). Ukoliko je knjiga obimna ova metoda vraća true, u suprotnom vraća false.
+    ◦ Metodu skupa koja ispituje da li je knjiga skupa(ukoliko je cena veća od 8000 tada je knjiga skupa). 
+      Ukoliko je knjiga skupa metoda vraća true, u suprotnom metoda vraća false.
+    ◦ Metodu dugackoime koja ispituje da li je ime autora dugačko (ukoliko je broj karaktera u imenu veći 
+      od 18 ime se smatra dugačkim). Ukoliko je ime dugačko metoda vraća true, u suprotnom metoda vraća false.
+
+2.  Napraviti klasu Video koja od privatnih polja sadrži:
+        ◦ naslov
+        ◦ trajanje
+    • Klasa Video od javnih metoda sadrži:
+        ◦ Konstruktor koji postavlja sva polja
+        ◦ Getere i setere
+        ◦ Metodu stampaj koja štampa sve podatke o videu
+        ◦ Napraviti niz od parem tri videa
+        ◦ Napraviti funkciju prosek kojoj se prosleđuje niz filmova, a funkcija vraća prosečno trajanje filmova
+        ◦ Napraviti funkciju najbliziProseku  koja ispisuje podatke o filmu čije je trajanje najbliže prosečnom 	trajanju filmova iz niza. Ukoliko ima više takvih filmova, ispisati bilo koji od njih.
+
+3.  Kreirati klasu Autobus koja ima podatke o:
+        ◦ Registarskom broju autobusa
+        ◦ O broju sedišta u autobusu
+    • Napraviti odgovarajući konstruktor, getere i setere.
+    • Napraviti metodu koja ispisuje podatke o autobusu.
+
+    • Napraviti niz autobusa.
+    • Napraviti funkciju koja ispisuje podatke o svakom autobusu iz prosledjenog niza autobusa.
+    • Napraviti funkciju ukupnoSedišta kojoj se prosleđuje niz autobusa, a koja određuje i vraća koliko ukupno       sedišta sadrže svi autobusi koji se nalaze u nizu autobusa
+    • Napraviti funkciju maksSedista koja ispisuje podatke o autobusu koji ima najveći broj sedišta.
+    • Napraviti funkciju ljudi kojoj se prosleđuje broj ljudi i niz autobusa a funkcija vraća true ukoliko je       moguće toliko ljudi smestiti u autobuse, u suprotnom vraća false
+
+
+4.  • Napraviti klasu Sportista, koja ima atribute:
+        ◦  ime
+        ◦  prezime
+        ◦  godina rođenja
+        ◦  grad rođenja.
+
+    • Napraviti klasu Košarkaš koja ima atribute:
+        ◦  ime
+        ◦  prezime
+        ◦  godina rođenja
+        ◦  grad rođenja
+        ◦  poeni (niz poena koje je postizao na utakmicama).
+
+
+5.  1. Kreirati klasu Student koja od zaštićenih polja sadrži:
+        ◦ $ime (string), 
+        ◦ $osvojeniESPB (broj ESPB poena koje je osvojio do sada u toku školovanja), 
+        ◦ $prosecnaOcena (broj). 
+
+    2. Od javnih metoda sadrži getere, setere, konstruktor, metodu za ispisivanje podataka o studentu, kao i dve        apstraktne metode:
+        ◦ skolarina($espb), za računanje školarine (prima parameter $espb – broj ESPB bodova koje je prijavio da        sluša u narednoj školskoj godini),
+        ◦ prijavaIspita(), za računanje prijave ispita (bez parametara).
+
+    3. Kreirati klasu SamofinansirajuciStudent koja nasleđuje klasu Student, a koja računa visinu školarine na        osnovu parametra (broj prijavljenih espb bodova) po fomuli: Ako je prosečna ocena manja od 8, onda je        školarina 1900 * espb, a u suprotnom je 1600 * espb. Prijava ispita je 400 din.
+
+    4. Kreirati klasu BudzetskiStudent koja nasleđuje klasu Student. Visinina školarine jednaka je (300 -        osvojeniESPB) * 2000, a prijava ispita je 100 din.
+
+    5. Kreirati niz od barem četiri studenta. 
+
+    6. Odrediti studenta koji plaća najveću školarinu. Za svakog studenta kao broj ESPB bodova koje prijavljuje u        narednoj školskoj godini staviti kao neki random ceo broj između 35 i 60.
+
+    7. Odrediti prosečnu školarinu svih studenata.
+
+    8. Odrediti prosečan odnos visine školarine i broja osvojenih ESPB bodova.
+
+    9. Odrediti studenta sa minimalnim brojem osvojenih ESPB. Ako ima više takvih studenata, vratiti onog koji        plaća najveću školarinu (ako ima i više takvih, vratiti bilo kog).
+
